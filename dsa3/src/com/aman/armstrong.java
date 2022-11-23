@@ -5,8 +5,13 @@ import java.util.Scanner;
 public class armstrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        System.out.println(isArmstrong(n));
+       // int n = sc.nextInt();
+       // System.out.println(isArmstrong(n));
+        for(int i=100;i<=999;i++)
+        {
+            if(isArmstrong(i))
+                System.out.println(i);
+        }
     }
 
 
